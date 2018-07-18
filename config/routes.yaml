@@ -1,0 +1,12 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+api_index:
+    resource: 'routes/api/index.yaml'
+    prefix: /api
+
+back_index:
+    resource: 'routes/back/index.yaml'
+    prefix: /back
+
